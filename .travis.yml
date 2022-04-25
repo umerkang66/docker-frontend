@@ -18,10 +18,10 @@ script:
 deploy:
     # elasticbeanstalk is pre configured
     provider: elasticbeanstalk
-    region: 'us-east-1'
+    region: 'ap-south-1'
     app: 'docker-react'
     env: 'Dockerreact-env'
-    bucket_name: 'elasticbeanstalk-us-east-1-076745903733'
+    bucket_name: 'elasticbeanstalk-ap-south-1-076745903733'
     bucket_path: 'docker-react'
     on:
         # only deploy when there is a change in master branch
